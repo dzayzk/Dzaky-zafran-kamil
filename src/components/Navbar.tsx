@@ -74,7 +74,7 @@ export default function Navbar({ isDark, toggleTheme }) {
             }`}
             whileHover={{ scale: 1.1 }}
           >
-            Qathrun's Portfolio
+            Dzaky's Portfolio
           </motion.a>
 
           {/* DESKTOP */}

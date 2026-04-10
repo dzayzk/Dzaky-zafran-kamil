@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Code2, Video, Coffee, Rocket } from 'lucide-react';
-import myPhoto from '../picture/foto1.jpg';
+import myPhoto from '../picture/foto1.jpeg';
 
 export default function AboutSection() {
   const stats = [
@@ -62,17 +62,17 @@ export default function AboutSection() {
               Passionate Developer &amp; Creator
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              perkenalkan nama saya Qathrun nada chalisan,kelas x-10 
+              perkenalkan nama saya Dzaky zhafran kamil,kelas x-10 
               Saya adalah seorang murid dari sekolah MAN 1 Banda Aceh,saat ini saya berumur 16 tahun
-              Saya adalah anak ke-4 dari 4 bersaudara atau bisa di bilang anak terakir
-              Mata pelajaran saya adalah Bahasa Ingris,PJOK dan juga sosiologi, saya adalah anak yang terlahir 
-              dari keluarga yang sederhana, kebutuhan saya terpenuhi dengan baik.
+              Saya adalah anak ke-1 dari 5 bersaudara atau bisa di bilang anak terakir
+              Mata pelajaran saya adalah Bahasa Ingris,tiK dan juga PJOK.
+            
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Selain itu saya juga memeliki hobi seperti Bermain game , nonton dan, mencoba hal yang baru.
+              Selain itu saya juga memeliki hobi seperti Bermain game , Olahraga  dan, mencoba hal yang baru.
               saya masuk ke sekolah MAN di karnakan Terdapat sekolah kedinasan di sini,Seperti IPDN,STAN,AKPOL,dll 
               saya berharap kemampuan saya akan terus berkembang dan dapat masuk ke sekolah tinngi yg saya inginkan,
-              cita cita saya ingin menjadi seorang pengusaha yang sukses dan juga ingin hidup sukses.
+              cita cita saya ingin menjadi seorang CEO yang sukses dan juga ingin hidup sukses.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               {stats.map((stat, index) => (
